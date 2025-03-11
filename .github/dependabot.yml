@@ -1,5 +1,10 @@
+#!/bin/bash
+version 2
+# This is a simple script example
+echo "Hello, World!"
+
 version: 2
-updates:
+updates
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
